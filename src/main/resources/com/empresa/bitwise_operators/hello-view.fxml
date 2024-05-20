@@ -25,6 +25,9 @@
                     <String fx:value="OR" />
                     <String fx:value="XOR" />
                     <String fx:value="NOT" />
+                    <String fx:value="LEFT SHIFT" />
+                    <String fx:value="RIGHT SHIFT" />
+                    <String fx:value="UNSIGNED RIGHT SHIFT" />
                 </FXCollections>
             </items>
         </ChoiceBox>

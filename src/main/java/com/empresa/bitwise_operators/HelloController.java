@@ -45,6 +45,15 @@ public class HelloController {
                 case "NOT":
                     result = ~num1;
                     break;
+                case "LEFT SHIFT":
+                    result = num1 << num2;
+                    break;
+                case "RIGHT SHIFT":
+                    result = num1 >> num2;
+                    break;
+                case "UNSIGNED RIGHT SHIFT":
+                    result = num1 >>> num2;
+                    break;
             }
 
             resultField.setText(String.valueOf(result));
